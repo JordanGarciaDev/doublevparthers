@@ -5,7 +5,7 @@
  * Date: 31/10/2022
  * Time: 10:20 PM
  */
-<?php
+
 $titulo = "JordanGarciaDev | GitHub buscar usuario de Github";
 $mode_text = "DARK";
 $no_results = "No existe";
