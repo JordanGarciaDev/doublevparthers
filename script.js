@@ -147,7 +147,7 @@ function modoLight() {
     modetext.innerText = "OSCURO";
     modeicon.src = "./assets/icon-moon.svg";
     root.setProperty("--lm-icon-bg", "brightness(100%)");
-    darkMode = true;
+    darkMode = false;
     localStorage.setItem("dark-mode", true);
 }
 
@@ -160,7 +160,7 @@ function modoDark() {
   modetext.innerText = "CLARO";
   modeicon.src = "./assets/icon-sun.svg";
   root.setProperty("--lm-icon-bg", "brightness(1000%)");
-  darkMode = false;
+  darkMode = true;
   localStorage.setItem("dark-mode", false);
 }
 perfilcontainer.classList.toggle("active");
