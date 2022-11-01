@@ -73,7 +73,7 @@ body {
   background-position-y: center;
   background-size: 20px;
 }
-#input {
+#usuario {
   border: none;
   width: 80%;
   outline: none;
@@ -81,7 +81,7 @@ body {
   color: var(--lm-text);
   padding-left: 50px;
 }
-#input::placeholder {
+#usuario::placeholder {
   color: var(--lm-text);
   letter-spacing: -0.5px;
   font-size: 13px;
@@ -217,11 +217,11 @@ body {
   .buscar-container {
     padding: 10px;
   }
-  #input {
+  #usuario {
     font-size: 18px;
     width: 75%;
   }
-  #input::placeholder {
+  #usuario::placeholder {
     font-size: 18px;
   }
   .btn-buscar {
@@ -322,11 +322,11 @@ body {
     transform: translateY(-50%);
     font-size: 15px;
   }
-  #input {
+  #usuario {
     width: 65%;
   }
 }
 
 ::root {
-  
+
 }

@@ -12,6 +12,7 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
   <div class="container">
     <header class="header">
       <img src="https://www.doublevpartners.com/assets/images/shared/dvp-logo.svg" alt="">
@@ -21,22 +22,29 @@
       </div>
     </header>
     <main>
+
       <div id="app">
         <div class="buscar-container active">
-          <input type="search" name="user-input" id="input" placeholder="Buscar usuario de Github...">
+          <input type="search" name="user-input" id="usuario" minlength="4" placeholder="Buscar usuario de Github...">
           <div class="error">
-            <p id="no-results">No results</p>
+            <p id="no-results">No existe</p>
+            <p id="no-cumple">No cumple criterio</p>
+
           </div>
           <button class="btn-buscar" id="submit">Buscar</button>
         </div>
         <div class="perfil-container">
           <div class="perfil-content">
             <div class="perfil-header">
-              <img id="avatar" src="./assets/eaea.png" alt="">
+              <a href="#" id="linkPerfil">
+                <img id="avatar" src="./assets/favicon-32x32.png" alt="">
+              </a>
               <div class="perfil-info-wrapper">
                 <div class="perfil-nombre">
                   <h2 id="name"></h2>
-                  <p id="user"></p>
+                  <a href="#" id="linkPerfil1">
+                    <p id="user"></p>
+                  </a>
                 </div>
                 <p id="date"></p>
               </div>
