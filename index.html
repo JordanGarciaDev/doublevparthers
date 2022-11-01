@@ -1,22 +1,3 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: admin
- * Date: 31/10/2022
- * Time: 10:20 PM
- */
-<?php
-$titulo = "JordanGarciaDev | GitHub buscar usuario de Github";
-$mode_text = "DARK";
-$no_results = "No existe";
-$no_cumple = "No cumple criterio";
-$text_search = "Buscar";
-$text_repo = "Repositorios";
-$text_Seguidores = "Seguidores";
-$text_Siguiendo = "Siguiendo";
-$logo = "https://www.doublevpartners.com/assets/images/shared/dvp-logo.svg";
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,16 +8,16 @@ $logo = "https://www.doublevpartners.com/assets/images/shared/dvp-logo.svg";
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-  <title><?php echo $titulo;?></title>
+  <title>JordanGarciaDev | GitHub buscar usuario de Github</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
   <div class="container">
     <header class="header">
-      <img src="<?php echo $logo;?>" alt="logo">
+      <img src="https://www.doublevpartners.com/assets/images/shared/dvp-logo.svg" alt="">
       <div id="btn-modo">
-        <p id="mode-text"><?php echo $mode_text;?></p>
+        <p id="mode-text">DARK</p>
         <div class="icon-container"><img id="mode-icon" src="./assets/icon-moon.svg" alt=""></div>
       </div>
     </header>
@@ -46,16 +27,16 @@ $logo = "https://www.doublevpartners.com/assets/images/shared/dvp-logo.svg";
         <div class="buscar-container active">
           <input type="search" name="user-input" id="usuario" minlength="4" placeholder="Buscar usuario de Github...">
           <div class="error">
-            <p id="no-results"><?php echo $no_results;?></p>
-            <p id="no-cumple"><?php echo $no_cumple;?></p>
+            <p id="no-results">No existe</p>
+            <p id="no-cumple">No cumple criterio</p>
           </div>
-          <button class="btn-buscar" id="submit"><?php echo $text_search;?></button>
+          <button class="btn-buscar" id="submit">Buscar</button>
         </div>
         <div class="perfil-container">
           <div class="perfil-content">
             <div class="perfil-header">
               <a href="#" id="linkPerfil">
-                <img id="avatar" src="./assets/favicon-32x32.png" alt="icono default">
+                <img id="avatar" src="./assets/favicon-32x32.png" alt="">
               </a>
               <div class="perfil-info-wrapper">
                 <div class="perfil-nombre">
@@ -70,15 +51,15 @@ $logo = "https://www.doublevpartners.com/assets/images/shared/dvp-logo.svg";
             <p id="bio"></p>
             <div class="perfil-stats-wrapper">
               <div class="perfil-stat">
-                <p class="titulo-stat"><?php echo $text_repo;?></p>
+                <p class="titulo-stat">Repositorios</p>
                 <p id="repos"class="valor-stat"></p>
               </div>
               <div class="perfil-stat">
-                <p class="titulo-stat"><?php echo $text_Seguidores;?></p>
+                <p class="titulo-stat">Seguidores</p>
                 <p id="followers" class="valor-stat"></p>
               </div>
               <div class="perfil-stat">
-                <p class="titulo-stat"><?php echo $text_Siguiendo;?></p>
+                <p class="titulo-stat">Siguiendo</p>
                 <p id="following" class="valor-stat"></p>
               </div>
             </div>
