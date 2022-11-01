@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd45a615-0706-4d9b-82e0-2add152628ba" name="Default Changelist" comment="" />
+    <list default="true" id="cd45a615-0706-4d9b-82e0-2add152628ba" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +22,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="1" />
+          <entry key="css" value="2" />
+          <entry key="html" value="1" />
           <entry key="js" value="1" />
           <entry key="md" value="1" />
           <entry key="svg" value="9" />
@@ -26,7 +31,8 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="1" />
+          <entry key="CSS" value="2" />
+          <entry key="HTML" value="1" />
           <entry key="JavaScript" value="1" />
           <entry key="Markdown" value="1" />
           <entry key="SVG" value="9" />
@@ -34,14 +40,14 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="11" />
+          <entry key="css" value="14" />
           <entry key="js" value="41" />
           <entry key="md" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="11" />
+          <entry key="CSS" value="14" />
           <entry key="JavaScript" value="41" />
           <entry key="Markdown" value="28" />
         </counts>
@@ -51,39 +57,22 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="55" selection-start-column="55" selection-end-column="55" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/style.css">
+        <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="254" column="7" selection-start-line="254" selection-start-column="3" selection-end-line="254" selection-end-column="7" />
+            <state relative-caret-position="177">
+              <caret line="16" column="90" selection-start-line="16" selection-start-column="90" selection-end-line="16" selection-end-column="90" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/script.js">
+        <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="29" column="2" lean-forward="true" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
+            <state relative-caret-position="34">
+              <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
               <folding>
-                <element signature="n#!!block;n#getUserData#0" />
-                <element signature="n#!!block;n#updateProfile#0" />
-                <element signature="e#3422#3509#0" />
-                <element signature="e#3536#3598#0" />
-                <element signature="e#3604#3716#0" />
-                <element signature="n#!!block;n#lightModeProp#0" />
-                <element signature="n#!!block;n#darkModeProperties#0" />
+                <element signature="e#3804#4862#0" />
+                <element signature="e#4878#5523#0" />
               </folding>
             </state>
           </provider>
@@ -106,11 +95,14 @@
       <find>darkModeProperties</find>
       <find>lightModeProperties</find>
       <find>LIGHT</find>
-      <find>gitUrl</find>
       <find>getUserData</find>
       <find>updateProfile</find>
       <find>darkModeProp</find>
       <find>lightModeProp</find>
+      <find>gitUrl</find>
+      <find>devfinder</find>
+      <find>btn-mode</find>
+      <find>--lm-bg</find>
     </findStrings>
     <replaceStrings>
       <replace />
@@ -131,6 +123,7 @@
       <replace>actualizarPerfil</replace>
       <replace>modoDark</replace>
       <replace>modoLight</replace>
+      <replace>btn-modo</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\xampp\htdocs\doublevparthers\</dir>
@@ -143,8 +136,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/style.css" />
         <option value="$PROJECT_DIR$/script.js" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/style.css" />
       </list>
     </option>
   </component>
@@ -205,12 +199,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1667263238213</updated>
-      <workItem from="1667263248158" duration="2261000" />
+      <workItem from="1667263248158" duration="2815000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2261000" />
+    <option name="totallyTimeSpent" value="2815000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -272,16 +266,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="254" column="7" selection-start-line="254" selection-start-column="3" selection-end-line="254" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/script.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
+        <state relative-caret-position="168">
           <caret line="29" column="2" lean-forward="true" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="2" />
           <folding>
             <element signature="n#!!block;n#getUserData#0" />
@@ -291,6 +278,24 @@
             <element signature="e#3604#3716#0" />
             <element signature="n#!!block;n#lightModeProp#0" />
             <element signature="n#!!block;n#darkModeProperties#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="16" column="90" selection-start-line="16" selection-start-column="90" selection-end-line="16" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="61" selection-start-line="2" selection-start-column="61" selection-end-line="2" selection-end-column="61" />
+          <folding>
+            <element signature="e#3804#4862#0" />
+            <element signature="e#4878#5523#0" />
           </folding>
         </state>
       </provider>

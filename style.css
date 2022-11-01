@@ -1,6 +1,6 @@
 :root {
-  --lm-bg: #f6f8ff;
-  --lm-bg-content: #fefefe;
+  --lm-bg: linear-gradient(.25turn,#000,#022032,#000);
+  --lm-bg-content: linear-gradient(.25turn,#000,#022032,#000);
   --lm-text: #4b6a9b;
   --lm-text-alt: #2b3442;
   --lm-shadow: 0px 16px 30px -10px rgba(70, 96, 187, 0.2);
@@ -45,7 +45,7 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-#btn-mode {
+#btn-modo {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -54,7 +54,7 @@ body {
   color: var(--lm-text);
   font-weight: bold;
 }
-#btn-mode:hover {
+#btn-modo:hover {
   cursor: pointer;
 }
 .buscar-container {
