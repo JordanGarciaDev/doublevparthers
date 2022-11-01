@@ -7,6 +7,7 @@ $text_search = "Buscar";
 $text_repo = "Repositorios";
 $text_Seguidores = "Seguidores";
 $text_Siguiendo = "Siguiendo";
+$logo = "https://www.doublevpartners.com/assets/images/shared/dvp-logo.svg";
 ?>
 
 <!DOCTYPE html>
@@ -26,7 +27,7 @@ $text_Siguiendo = "Siguiendo";
 
   <div class="container">
     <header class="header">
-      <img src="https://www.doublevpartners.com/assets/images/shared/dvp-logo.svg" alt="logo">
+      <img src="<?php echo $logo;?>" alt="logo">
       <div id="btn-modo">
         <p id="mode-text"><?php echo $mode_text;?></p>
         <div class="icon-container"><img id="mode-icon" src="./assets/icon-moon.svg" alt=""></div>
