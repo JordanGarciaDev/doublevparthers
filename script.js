@@ -89,7 +89,7 @@ function actualizarPerfil(data) {
       if (param1 === "" || param1 === null) {
         param2.style.opacity = 0.5;
         param2.previousElementSibling.style.opacity = 0.5;
-        return "Not available";
+        return "No Disponible";
       } else {
         return `${param1}`;
       }
@@ -98,11 +98,11 @@ function actualizarPerfil(data) {
     userName.innerText = `${data.name}`;
     user.innerText = `@${data.login}`;
     datesegments = data.created_at.split("T").shift().split("-");
-    date.innerText = `Joined ${datesegments[2]} ${
+    date.innerText = `Creado desde ${datesegments[2]} ${
       months[datesegments[1] - 1]
     } ${datesegments[0]}`;
     bio.innerText =
-      data.bio == null ? "This profile has no bio" : `${data.bio}`;
+      data.bio == null ? "Este perfil no tiene bio" : `${data.bio}`;
     repos.innerText = `${data.public_repos}`;
     followers.innerText = `${data.followers}`;
     following.innerText = `${data.following}`;
@@ -147,8 +147,8 @@ function modoLight() {
     modetext.innerText = "OSCURO";
     modeicon.src = "./assets/icon-moon.svg";
     root.setProperty("--lm-icon-bg", "brightness(100%)");
-    darkMode = false;
-    localStorage.setItem("dark-mode", false);
+    darkMode = true;
+    localStorage.setItem("dark-mode", true);
 }
 
 function modoDark() {
@@ -160,8 +160,8 @@ function modoDark() {
   modetext.innerText = "CLARO";
   modeicon.src = "./assets/icon-sun.svg";
   root.setProperty("--lm-icon-bg", "brightness(1000%)");
-  darkMode = true;
-  localStorage.setItem("dark-mode", true);
+  darkMode = false;
+  localStorage.setItem("dark-mode", false);
 }
 perfilcontainer.classList.toggle("active");
 buscar.classList.toggle("active");
