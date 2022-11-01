@@ -131,11 +131,11 @@ if(localStorageDarkMode === null) {
 
 if (localStorageDarkMode) {
   darkMode = localStorageDarkMode;
-  modoDark();
+    modoLight();
 } else {
   localStorage.setItem("dark-mode", prefersDarkMode);
   darkMode = prefersDarkMode;
-  modoLight();
+    modoDark();
 }
 
 function modoLight() {
@@ -147,8 +147,8 @@ function modoLight() {
     modetext.innerText = "OSCURO";
     modeicon.src = "./assets/icon-moon.svg";
     root.setProperty("--lm-icon-bg", "brightness(100%)");
-    darkMode = true;
-    localStorage.setItem("dark-mode", true);
+    darkMode = false;
+    localStorage.setItem("dark-mode", false);
 }
 
 function modoDark() {
@@ -160,8 +160,8 @@ function modoDark() {
   modetext.innerText = "CLARO";
   modeicon.src = "./assets/icon-sun.svg";
   root.setProperty("--lm-icon-bg", "brightness(1000%)");
-  darkMode = false;
-  localStorage.setItem("dark-mode", false);
+  darkMode = true;
+  localStorage.setItem("dark-mode", true);
 }
 perfilcontainer.classList.toggle("active");
 buscar.classList.toggle("active");
