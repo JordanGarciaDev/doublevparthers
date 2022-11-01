@@ -131,11 +131,11 @@ if(localStorageDarkMode === null) {
 
 if (localStorageDarkMode) {
   darkMode = localStorageDarkMode;
-    modoLight();
+  modoDark();
 } else {
   localStorage.setItem("dark-mode", prefersDarkMode);
   darkMode = prefersDarkMode;
-    modoDark();
+  modoLight();
 }
 
 function modoLight() {
