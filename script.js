@@ -165,4 +165,4 @@ function modoDark() {
 }
 perfilcontainer.classList.toggle("active");
 buscar.classList.toggle("active");
-ObtenerDatosUser(url + "octocat");
+ObtenerDatosUser(url + "JordanGarciaDev");
