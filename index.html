@@ -9,83 +9,32 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
   <title>JordanGarciaDev | GitHub buscar usuario de Github</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body style="background-color: #0a0e16;">
 
   <div class="container">
     <header class="header">
       <img src="https://www.doublevpartners.com/assets/images/shared/dvp-logo.svg" alt="">
-      <div id="btn-modo">
-        <p id="mode-text">DARK</p>
-        <div class="icon-container"><img id="mode-icon" src="./assets/icon-moon.svg" alt=""></div>
-      </div>
     </header>
     <main>
 
       <div id="app">
-        <div class="buscar-container active">
-          <input type="search" name="user-input" id="usuario" minlength="4" placeholder="Buscar usuario de Github...">
-          <div class="error">
-            <p id="no-results">No existe</p>
-            <p id="no-cumple">No cumple criterio</p>
-          </div>
-          <button class="btn-buscar" id="submit">Buscar</button>
-        </div>
         <div class="perfil-container">
           <div class="perfil-content">
             <div class="perfil-header">
-              <a href="#" id="linkPerfil">
-                <img id="avatar" src="./assets/favicon-32x32.png" alt="">
-              </a>
-              <div class="perfil-info-wrapper">
-                <div class="perfil-nombre">
-                  <h2 id="name"></h2>
-                  <a href="#" id="linkPerfil1">
-                    <p id="user"></p>
-                  </a>
-                </div>
-                <p id="date"></p>
-              </div>
+              <img width="400" src="https://i.imgur.com/bS9qU21.png">
             </div>
-            <p id="bio"></p>
-            <div class="perfil-stats-wrapper">
-              <div class="perfil-stat">
-                <p class="titulo-stat">Repositorios</p>
-                <p id="repos"class="valor-stat"></p>
-              </div>
-              <div class="perfil-stat">
-                <p class="titulo-stat">Seguidores</p>
-                <p id="followers" class="valor-stat"></p>
-              </div>
-              <div class="perfil-stat">
-                <p class="titulo-stat">Siguiendo</p>
-                <p id="following" class="valor-stat"></p>
-              </div>
-            </div>
-            <div class="perfil-bottom-wrapper">
-              <div class="perfil-info">
-                <div class="bottom-icons"><img src="./assets/icon-gps.svg" alt=""></div>
-                <p id="location"></p>
-              </div>
-              <div class="perfil-info">
-                <div class="bottom-icons"><img src="./assets/icon-website.svg" alt=""></div>
-                <p id="page"></p>
-              </div>
-              <div class="perfil-info">
-                <div class="bottom-icons"><img src="./assets/icon-twitter.svg" alt=""></div>
-                <p id="twitter"></p>
-              </div>
-              <div class="perfil-info">
-                <div class="bottom-icons"><img src="./assets/icon-company.svg" alt=""></div>
-                <p id="company"></p>
-              </div>
-            </div>
+          </div>
+          <br>
+          <div>
+          <a href="javascript:cerrar_tab();" class="myButton">SALIR</a>
+          <a href="buscar.php" class="myButton">INGRESAR</a>
           </div>
         </div>
       </div>
     </main>
   </div>
-  <script src="script.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>

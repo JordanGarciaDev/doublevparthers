@@ -1,3 +1,22 @@
+<?php
+/**
+ * Created by PhpStorm.
+ * User: admin
+ * Date: 31/10/2022
+ * Time: 10:20 PM
+ */
+
+$titulo = "JordanGarciaDev | GitHub buscar usuarios de Github";
+$mode_text = "DARK";
+$no_results = "No existe";
+$no_cumple = "No cumple criterio";
+$text_search = "Buscar";
+$text_repo = "Repositorios";
+$text_Seguidores = "Seguidores";
+$text_Siguiendo = "Siguiendo";
+$logo = "https://www.doublevpartners.com/assets/images/shared/dvp-logo.svg";
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,35 +27,34 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
-    <title>JordanGarciaDev | GitHub buscar usuarios de Github</title>
-    <link rel="stylesheet" href="style.css">
+    <title><?php echo $titulo;?></title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
 <div class="container">
     <header class="header">
-        <img src="https://www.doublevpartners.com/assets/images/shared/dvp-logo.svg" alt="">
+        <img src="<?php echo $logo;?>" alt="logo">
         <div id="btn-modo">
-            <p id="mode-text">DARK</p>
+            <p id="mode-text"><?php echo $mode_text;?></p>
             <div class="icon-container"><img id="mode-icon" src="./assets/icon-moon.svg" alt=""></div>
         </div>
     </header>
     <main>
 
         <div id="app">
-            <div class="buscar-container active">
-                <input type="search" name="user-input" id="usuario" minlength="4" placeholder="Buscar usuario de Github...">
+            <div class="buscar-container active" style="display: none" >
+                <input type="search" name="user-input" id="usuario" minlength="4" readonly value="<?php echo $_GET['usuario'];?>">
                 <div class="error">
-                    <p id="no-results">No existe</p>
-                    <p id="no-cumple">No cumple criterio</p>
+                    <p id="no-results"><?php echo $no_results;?></p>
+                    <p id="no-cumple"><?php echo $no_cumple;?></p>
                 </div>
-                <button class="btn-buscar" id="submit">Buscar</button>
             </div>
             <div class="perfil-container">
                 <div class="perfil-content">
                     <div class="perfil-header">
                         <a href="#" id="linkPerfil">
-                            <img id="avatar" src="./assets/favicon-32x32.png" alt="">
+                            <img id="avatar" src="./assets/favicon-32x32.png" alt="icono default">
                         </a>
                         <div class="perfil-info-wrapper">
                             <div class="perfil-nombre">
@@ -51,15 +69,15 @@
                     <p id="bio"></p>
                     <div class="perfil-stats-wrapper">
                         <div class="perfil-stat">
-                            <p class="titulo-stat">Repositorios</p>
+                            <p class="titulo-stat"><?php echo $text_repo;?></p>
                             <p id="repos"class="valor-stat"></p>
                         </div>
                         <div class="perfil-stat">
-                            <p class="titulo-stat">Seguidores</p>
+                            <p class="titulo-stat"><?php echo $text_Seguidores;?></p>
                             <p id="followers" class="valor-stat"></p>
                         </div>
                         <div class="perfil-stat">
-                            <p class="titulo-stat">Siguiendo</p>
+                            <p class="titulo-stat"><?php echo $text_Siguiendo;?></p>
                             <p id="following" class="valor-stat"></p>
                         </div>
                     </div>
@@ -85,7 +103,8 @@
             </div>
         </div>
     </main>
+    <br>
 </div>
-<script src="search.js"></script>
+<script src="js/script.js"></script>
 </body>
 </html>

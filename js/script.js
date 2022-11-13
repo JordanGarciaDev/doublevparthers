@@ -42,14 +42,13 @@ const twitter = get("twitter");
 const company = get("company");
 let darkMode = false;
 //btns
-btnsubmit.addEventListener("click", function () {
     if (usuario.value !== "doublevpartners" && usuario.value.length >= 4) {
         ObtenerDatosUser(url + usuario.value);
     }
     else{
         nocumple.style.display = "block";
     }
-});
+
 usuario.addEventListener(
     "keydown",
     function (e) {
@@ -109,8 +108,7 @@ function actualizarPerfil(data) {
         }
 
         avatar.src = `${data.avatar_url}`;
-        linkPerfil.href = `${data.url}`;
-        linkPerfil1.href = `${data.url}`;
+        linkPerfil.href = `${data.html_url}`;
         userName.innerText = `${data.name}`;
         user.innerText = `@${data.login}`;
         datesegments = data.created_at.split("T").shift().split("-");
@@ -122,6 +120,7 @@ function actualizarPerfil(data) {
         repos.innerText = `${data.public_repos}`;
         followers.innerText = `${data.followers}`;
         following.innerText = `${data.following}`;
+        linkPerfil1.href = `${data.html_url}`;
         user_location.innerText = checkNull(data.location, user_location);
         page.innerText = checkNull(data.blog, page);
         twitter.innerText = checkNull(data.twitter_username, twitter);
@@ -154,13 +153,19 @@ if (localStorageDarkMode) {
     modoLight();
 }
 
+function cerrar_tab() {
+    if (confirm("Estas seguro que deseas salir?")) {
+        window.close();
+    }
+}
+
 function modoLight() {
     root.setProperty("--lm-bg", "#F6F8FF");
     root.setProperty("--lm-bg-content", "#FEFEFE");
     root.setProperty("--lm-text", "#4B6A9B");
     root.setProperty("--lm-text-alt", "#2B3442");
     root.setProperty("--lm-shadow-xl", "rgba(70, 88, 109, 0.25)");
-    modetext.innerText = "OSCURO";
+    modetext.innerText = "CAMBIAR A OSCURO";
     modeicon.src = "./assets/icon-moon.svg";
     root.setProperty("--lm-icon-bg", "brightness(100%)");
     darkMode = false;
@@ -173,13 +178,14 @@ function modoDark() {
     root.setProperty("--lm-text", "white");
     root.setProperty("--lm-text-alt", "white");
     root.setProperty("--lm-shadow-xl", "rgba(70,88,109,0.15)");
-    modetext.innerText = "CLARO";
+    modetext.innerText = "CAMBIAR A CLARO";
     modeicon.src = "./assets/icon-sun.svg";
     root.setProperty("--lm-icon-bg", "brightness(1000%)");
     darkMode = true;
     localStorage.setItem("dark-mode", true);
 }
 
+
 perfilcontainer.classList.toggle("active");
 buscar.classList.toggle("active");
-ObtenerDatosUser(url + "JordanGarciaDev");
+ObtenerDatosUser(url + usuario.value);
