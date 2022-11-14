@@ -1,4 +1,5 @@
 //Variables
+
 const buscar = document.querySelector(".buscar-container");
 const perfilcontainer = document.querySelector(".perfil-container");
 const root = document.documentElement.style;
@@ -41,7 +42,8 @@ const page = get("page");
 const twitter = get("twitter");
 const company = get("company");
 let darkMode = false;
-//btns
+
+//condiciones y restrincciones
     if (usuario.value !== "doublevpartners" && usuario.value.length >= 4) {
         ObtenerDatosUser(url + usuario.value);
     }

@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd45a615-0706-4d9b-82e0-2add152628ba" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/buscar.php" beforeDir="false" afterPath="$PROJECT_DIR$/buscar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/doublevparthers.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/usuario.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/buscar.html" beforeDir="false" afterPath="$PROJECT_DIR$/buscar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/search.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/search.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,103 +23,87 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.open.time.10" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.77" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="5" />
-          <entry key="html" value="2" />
-          <entry key="js" value="2" />
+          <entry key="TXT" value="2" />
+          <entry key="css" value="6" />
+          <entry key="htaccess" value="2" />
+          <entry key="html" value="4" />
+          <entry key="js" value="4" />
           <entry key="md" value="2" />
-          <entry key="php" value="2" />
+          <entry key="php" value="24" />
+          <entry key="sql" value="1" />
           <entry key="svg" value="9" />
           <entry key="ts" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="5" />
-          <entry key="HTML" value="2" />
-          <entry key="JavaScript" value="2" />
+          <entry key="CSS" value="6" />
+          <entry key="HTML" value="4" />
+          <entry key="JavaScript" value="4" />
           <entry key="Markdown" value="2" />
-          <entry key="PHP" value="2" />
+          <entry key="PHP" value="24" />
+          <entry key="PLAIN_TEXT" value="2" />
+          <entry key="SQL" value="1" />
           <entry key="SVG" value="9" />
           <entry key="TypeScript" value="1" />
+          <entry key="htaccess" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="15" />
-          <entry key="html" value="198" />
-          <entry key="js" value="260" />
+          <entry key="TXT" value="841" />
+          <entry key="css" value="16" />
+          <entry key="html" value="219" />
+          <entry key="js" value="341" />
           <entry key="md" value="37" />
-          <entry key="php" value="117" />
+          <entry key="php" value="291" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="15" />
-          <entry key="HTML" value="198" />
-          <entry key="JavaScript" value="260" />
+          <entry key="CSS" value="16" />
+          <entry key="HTML" value="219" />
+          <entry key="JavaScript" value="341" />
           <entry key="Markdown" value="37" />
-          <entry key="PHP" value="117" />
+          <entry key="PHP" value="291" />
+          <entry key="PLAIN_TEXT" value="841" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/search.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="39" column="81" selection-start-line="39" selection-start-column="81" selection-end-line="39" selection-end-column="81" />
-              <folding>
-                <element signature="n#style#0;n#h2#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#p#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/script.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="155" column="9" selection-start-line="155" selection-start-column="9" selection-end-line="155" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/index.html">
+        <entry file="file://$PROJECT_DIR$/APIS/README.TXT">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="31" column="30" selection-start-line="31" selection-start-column="30" selection-end-line="31" selection-end-column="30" />
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="211">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/style.css">
+        <entry file="file://$PROJECT_DIR$/APIS/tickets/eliminarTicket.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="297">
-              <caret line="33" column="18" selection-start-line="33" selection-start-column="18" selection-end-line="33" selection-end-column="18" />
+            <state relative-caret-position="273">
+              <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/buscar.html">
+        <entry file="file://$PROJECT_DIR$/APIS/class/tickets.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="259">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="341">
+              <caret line="78" column="40" selection-start-line="78" selection-start-column="38" selection-end-line="78" selection-end-column="40" />
               <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#create#0;n#Tickets#0;n#!!top" />
               </folding>
             </state>
           </provider>
@@ -129,46 +120,38 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>icon-buscar.svg</find>
-      <find>actualizarPerfil</find>
-      <find>darkMode</find>
-      <find>searc</find>
-      <find>Not available</find>
-      <find>twitter</find>
-      <find>daresfesf</find>
-      <find>id=&quot;avatar</find>
-      <find>link</find>
-      <find>company</find>
-      <find>avatar2</find>
-      <find>avatar</find>
-      <find>linkPerfil</find>
-      <find>dark</find>
-      <find>usuario.value !== &quot;&quot;</find>
-      <find>error</find>
-      <find>!</find>
-      <find>input</find>
-      <find>noresults</find>
-      <find>activo</find>
-      <find>$text_Siguiendo</find>
-      <find>gitUrl</find>
-      <find>no-results</find>
-      <find>script</find>
       <find>&quot;https://api.github.com/users?q=</find>
       <find>url</find>
       <find>body</find>
       <find>id=&quot;name&quot;</find>
-      <find>$text_search</find>
       <find>$no_results</find>
+      <find>$text_search</find>
+      <find>$text_Seguidores</find>
+      <find>#avatar</find>
+      <find>&lt;header class=&quot;header&quot;&gt;</find>
+      <find>$text_repo</find>
+      <find>$text_Siguiendo</find>
+      <find>getConnection</find>
+      <find>Error failed to connect to MySQL:</find>
+      <find>itemsTable</find>
+      <find>nable to create item. Data is incomplete.</find>
+      <find>$data</find>
+      <find>description</find>
+      <find>price</find>
+      <find>created</find>
+      <find>category_id</find>
+      <find>$itemDetails</find>
+      <find>$item</find>
+      <find>$created</find>
+      <find>modified</find>
+      <find>message</find>
+      <find>Items</find>
+      <find>name</find>
+      <find>nameTable</find>
+      <find>&amp;&amp; !empty($datos-&gt;estatus)</find>
+      <find>No se pueden actualizar los tickets. Los datos están incompletos</find>
     </findStrings>
     <replaceStrings>
-      <replace />
-      <replace>icon-gps.svg</replace>
-      <replace>perfil-</replace>
-      <replace>-buscar</replace>
-      <replace>-nombre</replace>
-      <replace>titulo-stat</replace>
-      <replace>valor-stat</replace>
-      <replace>fecha</replace>
       <replace>perfil-container</replace>
       <replace>perfilcontainer</replace>
       <replace>buscar</replace>
@@ -184,10 +167,25 @@
       <replace>infoPerfil</replace>
       <replace>No Disponible</replace>
       <replace>linkPerfil</replace>
+      <replace>getConexion</replace>
+      <replace>Error para conectarse con MySQL:</replace>
+      <replace>nameTable</replace>
+      <replace>$datos</replace>
+      <replace>descripcion</replace>
+      <replace>estatus</replace>
+      <replace>fecha_creacion</replace>
+      <replace>$ticketDetalle</replace>
+      <replace>$ticket</replace>
+      <replace>$fcreacion</replace>
+      <replace>fecha_actualizacion</replace>
+      <replace>mensaje</replace>
+      <replace>Tickets</replace>
+      <replace>Tabla</replace>
       <replace>usuario</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\xampp\htdocs\doublevparthers\</dir>
+      <dir>C:\xampp\htdocs\doublevparthers\APIS</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -201,10 +199,24 @@
         <option value="$PROJECT_DIR$/script.js" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/search.php" />
-        <option value="$PROJECT_DIR$/buscar.html" />
         <option value="$PROJECT_DIR$/search.js" />
         <option value="$PROJECT_DIR$/buscar.php" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/usuario.php" />
+        <option value="$PROJECT_DIR$/usuario.html" />
+        <option value="$PROJECT_DIR$/css/style.css" />
+        <option value="$PROJECT_DIR$/buscar.html" />
+        <option value="$PROJECT_DIR$/js/search.js" />
+        <option value="$PROJECT_DIR$/js/script.js" />
+        <option value="$PROJECT_DIR$/APIS/config/db.php" />
+        <option value="$PROJECT_DIR$/APIS/class/Items.php" />
+        <option value="$PROJECT_DIR$/APIS/tickets/eliminarTicket.php" />
+        <option value="$PROJECT_DIR$/APIS/tickets/listarTicket.php" />
+        <option value="$PROJECT_DIR$/APIS/class/tickets.php" />
+        <option value="$PROJECT_DIR$/APIS/tickets/actualizarTicket.php" />
+        <option value="$PROJECT_DIR$/APIS/tickets/crearTicket.php" />
+        <option value="$PROJECT_DIR$/APIS/tickets/.htaccess" />
+        <option value="$PROJECT_DIR$/APIS/README.TXT" />
       </list>
     </option>
   </component>
@@ -234,6 +246,17 @@
             <path>
               <item name="doublevparthers" type="b2602c69:ProjectViewProjectNode" />
               <item name="doublevparthers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doublevparthers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doublevparthers" type="462c0819:PsiDirectoryNode" />
+              <item name="APIS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="doublevparthers" type="b2602c69:ProjectViewProjectNode" />
+              <item name="doublevparthers" type="462c0819:PsiDirectoryNode" />
+              <item name="APIS" type="462c0819:PsiDirectoryNode" />
+              <item name="tickets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -270,21 +293,22 @@
       <option name="presentableId" value="Default" />
       <updated>1667263238213</updated>
       <workItem from="1667263248158" duration="9300000" />
+      <workItem from="1668435404123" duration="10096000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9423000" />
+    <option name="totallyTimeSpent" value="19519000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14220877" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -300,6 +324,27 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Database" order="3" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.14220877" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -356,18 +401,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/script.js" />
     <entry file="file://$PROJECT_DIR$/style.css" />
-    <entry file="file://$PROJECT_DIR$/buscar.html" />
     <entry file="file://$PROJECT_DIR$/search.js" />
-    <entry file="file://$PROJECT_DIR$/buscar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="259">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -375,6 +409,113 @@
           <folding>
             <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="324" column="4" selection-start-line="324" selection-start-column="4" selection-end-line="324" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/buscar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="38" column="11" lean-forward="true" selection-start-line="38" selection-start-column="11" selection-end-line="38" selection-end-column="11" />
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usuario.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-642">
+          <caret line="27" column="104" selection-start-line="27" selection-start-column="98" selection-end-line="27" selection-end-column="104" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/search.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/script.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="43" column="21" lean-forward="true" selection-start-line="43" selection-start-column="21" selection-end-line="43" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/usuario.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="15" column="28" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APIS/config/db.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="2" lean-forward="true" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APIS/tickets.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APIS/tickets/listarTicket.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="157">
+          <caret line="22" column="24" lean-forward="true" selection-start-line="22" selection-start-column="24" selection-end-line="22" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APIS/tickets/crearTicket.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="60" selection-start-line="17" selection-start-column="60" selection-end-line="17" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APIS/tickets/actualizarTicket.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="426">
+          <caret line="37" column="41" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APIS/class/tickets.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="78" column="40" selection-start-line="78" selection-start-column="38" selection-end-line="78" selection-end-column="40" />
+          <folding>
+            <element signature="n#create#0;n#Tickets#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APIS/tickets/.htaccess">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="20" selection-start-column="20" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APIS/tickets/eliminarTicket.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="19" column="22" lean-forward="true" selection-start-line="19" selection-start-column="22" selection-end-line="19" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/APIS/README.TXT">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
         </state>
       </provider>
     </entry>

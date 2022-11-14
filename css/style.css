@@ -322,6 +322,7 @@ body {
     position: absolute;
     left: 0;
     margin-left: 40px;
+    top: 15%;
   }
   .perfil-info-wrapper {
     flex-direction: row;

@@ -1,0 +1,6 @@
+RewriteEngine On
+RewriteRule ^read$ listarTicket.php [NC,L]
+RewriteRule ^read/([0-9_-]*)$ read.php?id=$1 [NC,L]
+RewriteRule ^create$ crearTicket.php [NC,L]
+RewriteRule ^update$ actualizarTicket.php [NC,L]
+RewriteRule ^delete$ eliminarTicket.php [NC,L]

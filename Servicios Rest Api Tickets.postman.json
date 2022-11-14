@@ -1,0 +1,203 @@
+{
+	"info": {
+		"_postman_id": "f5c5745e-2e6e-4ac0-9747-d6dd00607b66",
+		"name": "Servicios Rest Api Tickets",
+		"description": "doublevparthers",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Crear Ticket",
+			"item": [
+				{
+					"name": "Api Crear Ticket",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"usuario\": \"doublevparthers\",\r\n\"descripcion\": \"1Este es un ticket de prueba, somos doublevparthers\",\r\n\"estatus\":\"1\", \r\n\"fecha_creacion\": \"2022-11-13 11:31:50\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/doublevparthers/APIS/tickets/crearTicket.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"doublevparthers",
+								"APIS",
+								"tickets",
+								"crearTicket.php"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"description": "Crear Ticket"
+		},
+		{
+			"name": "Eliminar Ticket",
+			"item": [
+				{
+					"name": "Eliminar Por Id",
+					"protocolProfileBehavior": {
+						"followOriginalHttpMethod": true,
+						"followAuthorizationHeader": true,
+						"removeRefererHeaderOnRedirect": false
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"id\": 10\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/doublevparthers/APIS/tickets/eliminarTicket.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"doublevparthers",
+								"APIS",
+								"tickets",
+								"eliminarTicket.php"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Actualizar Ticket",
+			"item": [
+				{
+					"name": "Actualizar Por Id",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": " {\r\n            \"id\": 9,\r\n            \"usuario\": \"doublevparthers\",\r\n            \"descripcion\": \"Este es un ticket de prueba actualizado, somos doublevparthers\",\r\n            \"estatus\": \"0\",\r\n            \"fecha_creacion\": \"2022-11-14 20:03:19\"\r\n        }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/doublevparthers/APIS/tickets/actualizarTicket.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"doublevparthers",
+								"APIS",
+								"tickets",
+								"actualizarTicket.php"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "Listar Tickets",
+			"item": [
+				{
+					"name": "listar Todos los Ticket",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/doublevparthers/APIS/tickets/listarTicket.php",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"doublevparthers",
+								"APIS",
+								"tickets",
+								"listarTicket.php"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "listar Ticket por Id",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:8080/doublevparthers/APIS/tickets/listarTicket.php?id=2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8080",
+							"path": [
+								"doublevparthers",
+								"APIS",
+								"tickets",
+								"listarTicket.php"
+							],
+							"query": [
+								{
+									"key": "id",
+									"value": "2"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

@@ -1,5 +1,6 @@
 ﻿$(document).ready(function() {
 
+
     var result = ''
 
     $("#form").submit(function (event) {
